@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="11.849237"
+   height="22.980339"
+   viewBox="0 0 3.1351109 6.0802147"
+   version="1.1"
+   id="svg88135"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="facebook.svg">
+  <defs
+     id="defs88129">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63263">
+      <rect
+         style="fill:#0000ff;fill-opacity:0.09810127;fill-rule:evenodd;stroke-width:0.23382328"
+         id="rect63265"
+         width="23.051832"
+         height="56.943214"
+         x="-93.758377"
+         y="274.8302" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63257">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.28095475"
+         id="rect63259"
+         width="23.384308"
+         height="59.559959"
+         x="-52.747086"
+         y="267.44681" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63249">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.31385976"
+         id="rect63251"
+         width="21.814621"
+         height="57.515461"
+         x="-34.649853"
+         y="267.26486" />
+    </clipPath>
+    <clipPath
+       id="clipPath35325-3"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         r="93.17112"
+         cy="135.41998"
+         cx="104.7372"
+         id="circle35327-7"
+         style="opacity:0.98999999;fill:#4a7cd2;fill-opacity:0.32492113;fill-rule:evenodd;stroke:none;stroke-width:0.28156248;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="-10.687471"
+     inkscape:cy="5.1779676"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="true" />
+  <metadata
+     id="metadata88132">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-167.31223,-91.428146)">
+    <g
+       id="use20319"
+       style="fill:#ffffff"
+       transform="matrix(0.01187542,0,0,0.01187542,167.31223,91.428146)">
+      <title
+         id="title104132">Facebook F</title>
+      <path
+         inkscape:connector-curvature="0"
+         id="path104134"
+         d="M 76.7,512 V 283 H 0 V 192 H 76.7 V 120.3 C 76.7,42.4 124.3,0 193.8,0 227.1,0 255.7,2.5 264,3.6 V 85 h -48.2 c -37.8,0 -45.1,18 -45.1,44.3 V 192 H 256 l -11.7,91 h -73.6 v 229" />
+    </g>
+  </g>
+</svg>

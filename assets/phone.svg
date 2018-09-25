@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   viewBox="0 0 8.466667 8.4666666"
+   version="1.1"
+   id="svg88135"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="phone.svg">
+  <defs
+     id="defs88129">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63263">
+      <rect
+         style="fill:#0000ff;fill-opacity:0.09810127;fill-rule:evenodd;stroke-width:0.23382328"
+         id="rect63265"
+         width="23.051832"
+         height="56.943214"
+         x="-93.758377"
+         y="274.8302" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63257">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.28095475"
+         id="rect63259"
+         width="23.384308"
+         height="59.559959"
+         x="-52.747086"
+         y="267.44681" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63249">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.31385976"
+         id="rect63251"
+         width="21.814621"
+         height="57.515461"
+         x="-34.649853"
+         y="267.26486" />
+    </clipPath>
+    <clipPath
+       id="clipPath35325-3"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         r="93.17112"
+         cy="135.41998"
+         cx="104.7372"
+         id="circle35327-7"
+         style="opacity:0.98999999;fill:#4a7cd2;fill-opacity:0.32492113;fill-rule:evenodd;stroke:none;stroke-width:0.28156248;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="-0.42508487"
+     inkscape:cy="8.6877979"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata88132">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-164.59697,-89.970337)">
+    <g
+       id="use56319"
+       style="fill:#3c47b1;fill-opacity:1"
+       transform="matrix(0.01610333,0,0,0.01610333,164.71933,90.116727)">
+      <title
+         id="title103867">Phone</title>
+      <path
+         inkscape:connector-curvature="0"
+         id="path103869"
+         d="m 493.397,24.615 -104,-23.997 C 378.083,-1.993 366.518,3.87 361.941,14.549 l -48,111.997 a 24,24 0 0 0 6.862,28.029 l 60.617,49.596 c -35.973,76.675 -98.938,140.508 -177.249,177.248 l -49.596,-60.616 a 24,24 0 0 0 -28.029,-6.862 l -111.997,48 C 3.873,366.516 -1.994,378.08 0.618,389.397 l 23.997,104 C 27.109,504.204 36.748,512 48,512 304.087,512 512,304.468 512,48 512,36.824 504.286,27.127 493.397,24.615 Z" />
+    </g>
+  </g>
+</svg>

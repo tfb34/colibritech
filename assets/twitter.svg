@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="28.710461"
+   height="23.318199"
+   viewBox="0 0 7.5963098 6.1696069"
+   version="1.1"
+   id="svg88135"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="twitter.svg">
+  <defs
+     id="defs88129">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63263">
+      <rect
+         style="fill:#0000ff;fill-opacity:0.09810127;fill-rule:evenodd;stroke-width:0.23382328"
+         id="rect63265"
+         width="23.051832"
+         height="56.943214"
+         x="-93.758377"
+         y="274.8302" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63257">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.28095475"
+         id="rect63259"
+         width="23.384308"
+         height="59.559959"
+         x="-52.747086"
+         y="267.44681" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath63249">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.31385976"
+         id="rect63251"
+         width="21.814621"
+         height="57.515461"
+         x="-34.649853"
+         y="267.26486" />
+    </clipPath>
+    <clipPath
+       id="clipPath35325-3"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         r="93.17112"
+         cy="135.41998"
+         cx="104.7372"
+         id="circle35327-7"
+         style="opacity:0.98999999;fill:#4a7cd2;fill-opacity:0.32492113;fill-rule:evenodd;stroke:none;stroke-width:0.28156248;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="34.884256"
+     inkscape:cy="4.8115014"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="true" />
+  <metadata
+     id="metadata88132">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-155.25471,-91.241792)">
+    <g
+       id="use20376"
+       style="fill:#ffffff"
+       transform="matrix(0.0148366,0,0,0.0148366,155.25471,90.528419)">
+      <title
+         id="title104510">Twitter</title>
+      <path
+         inkscape:connector-curvature="0"
+         id="path104512"
+         d="m 459.37,151.716 c 0.325,4.548 0.325,9.097 0.325,13.645 0,138.72 -105.583,298.558 -298.558,298.558 -59.452,0 -114.68,-17.219 -161.137,-47.106 8.447,0.974 16.568,1.299 25.34,1.299 49.055,0 94.213,-16.568 130.274,-44.832 -46.132,-0.975 -84.792,-31.188 -98.112,-72.772 6.498,0.974 12.995,1.624 19.818,1.624 9.421,0 18.843,-1.3 27.614,-3.573 -48.081,-9.747 -84.143,-51.98 -84.143,-102.985 v -1.299 c 13.969,7.797 30.214,12.67 47.431,13.319 -28.264,-18.843 -46.781,-51.005 -46.781,-87.391 0,-19.492 5.197,-37.36 14.294,-52.954 51.655,63.675 129.3,105.258 216.365,109.807 -1.624,-7.797 -2.599,-15.918 -2.599,-24.04 0,-57.828 46.782,-104.934 104.934,-104.934 30.213,0 57.502,12.67 76.67,33.137 23.715,-4.548 46.456,-13.32 66.599,-25.34 -7.798,24.366 -24.366,44.833 -46.132,57.827 21.117,-2.273 41.584,-8.122 60.426,-16.243 -14.292,20.791 -32.161,39.308 -52.628,54.253 z" />
+    </g>
+  </g>
+</svg>
