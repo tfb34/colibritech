@@ -376,7 +376,7 @@ template {
 /*  height:190px;*/
   /*background-color:grey;*/
   width:100%;
-  bottom:1em;
+  bottom:3em;
 }
 /*Slideshow left arrow*/
 #slideshow > img:nth-child(1){
