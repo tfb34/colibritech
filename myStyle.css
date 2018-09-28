@@ -437,7 +437,6 @@ template {
   /* right: 0; */
   bottom: 0;
   margin: auto;
-  box-sizing: border-box;
 }
 /*Add style to mobile menu button*/
 #menu-btn{
