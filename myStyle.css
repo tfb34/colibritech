@@ -485,6 +485,7 @@ template {
 }
 #desktop-menu a{
   text-decoration: none;
+  color:black;
 }
 #desktop-menu a:hover{
   color:blue;
