@@ -9,22 +9,37 @@
 </head>
 <body>
 	<div id="navbar">
-		<img src="assets/logo.svg" width="130px">
+		<img src="assets/logo.svg">
 		<div id="menu-btn" onclick="toggleBtn()">
 		  <div class="bar1"></div>
 		  <div class="bar2"></div>
 		  <div class="bar3"></div>
 		</div>
+		<ul id="desktop-menu" class="center" style="height:24px;">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a><img src="assets/sort-down.png" id="sort-down-icon"></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
 	</div>
 	<div class="parallax">
-		<div id="text-container">
-			<h1 style="font-size:1.9em;font-weight:lighter">Web and Technology Solutions</h1>
+		<div class="center" style="height:600px;">
+		<div id="text-container" style="position: relative;">
+			<h1>Web and Technology Solutions</h1>
 			<h4>Colibritech provides a fullstack office to manage all your technological needs in one place.</h4>
 		</div>
-		<div id="slideshow" >
+		<div id="slideshow" style="position: relative;" >
 			<img src="assets/left-arrow.png">
-			<div class="circle">
+			<div class="circle selected">
 				<img src="assets/network-support.svg">
+				<p style="font-size:12px;font-weight:bold">Network and Computer Support</p>
+			</div>
+			<div class="circle">
+				<img src="assets/web-design.svg">
+				<p style="font-size:12px;font-weight:bold">Network and Computer Support</p>
+			</div>
+			<div class="circle">
+				<img src="assets/voice-and-data2.svg">
 				<p style="font-size:12px;font-weight:bold">Network and Computer Support</p>
 			</div>
 			<img src="assets/right-arrow.png">
@@ -34,23 +49,32 @@
 				<span></span>
 			</div>
 		</div>
+		</div>
 	</div>
-	<section>
+	<section id="key-facts">
 		<h1 style="font-weight: lighter;">Key Facts</h1>
 		<span class="underline"></span>
 
-		<div style="margin-top:3em">
-			<img src="assets/team.svg">
-			<h3 style="font-weight: lighter">Colibritech has a close-knit group of profressionals offering high-quality web design, technology solutions, and a lot more</h3>
-		<div>
-		<div style="margin-top:3em">
-			<img src="assets/briefcaseWithLogo.svg">
-			<h3 style="font-weight: lighter">Working with us means having your demands met on time and not having to worry about being put on hold</h3>
-		<div>
-		<div style="margin-top:3em">
-			<img src="assets/lightbulb.svg">
-			<h3 style="font-weight: lighter">Small or mid-sized business? We understand you're still growing, therefore we offer our solutions at affordable prices</h3>
-		<div>
+		<div class="row">
+			<div class="col-3">
+				<div style="margin-top:3em">
+					<img src="assets/team.svg">
+					<h3 style="font-weight: lighter">Colibritech has a close-knit group of profressionals offering high-quality web design, technology solutions, and a lot more</h3>
+				</div>
+			</div>
+			<div class="col-3">
+				<div style="margin-top:3em">
+					<img src="assets/briefcaseWithLogo.svg">
+					<h3 style="font-weight: lighter">Working with us means having your demands met on time and not having to worry about being put on hold</h3>
+				</div>
+			</div>
+			<div class="col-3">
+				<div style="margin-top:3em">
+					<img src="assets/lightbulb.svg">
+					<h3 style="font-weight: lighter">Small or mid-sized business? We understand you're still growing, therefore we offer our solutions at affordable prices</h3>
+				</div>
+			</div>
+		</div>
 	</section>
 	<section class="banner">
 		<h2>Ready for Custom Web Design and Technology Solutions?</h2>
@@ -60,8 +84,11 @@
 	<section class="overview">
 		<h1 style="font-weight: lighter;">Company Overview</h1>
 		<span class="underline"></span>
+		<div style="max-width:1000px;margin:3em auto;position: relative;">
 		<p style="font-weight:bold;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 		<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<img src="assets/big-bird.svg">
+		</div>
 	</section>
 	<section id="links">
 		<h3><a href="#">Who We Are</a></h3>
@@ -69,9 +96,49 @@
 		<h3><a href="#">Get In Touch</a></h3>
 	</section>
 	<footer>
-		<img src="assets/facebook.png">
-		<img src="assets/twitter.png">
-		<img src="assets/linkedIn.png">
+		<div id="mobile-content">
+			<img src="assets/facebook.png">
+			<img src="assets/twitter.png">
+			<img src="assets/linkedIn.png">
+		</div>
+		<div id="desktop-content" style="width:1200px;margin:0 auto;">
+		<table>
+			<tr>
+				<th>Services</th>
+				<th>IT Services</th>
+				<th>Business Relations</th>
+				<th>Resources</th>
+				<th>
+					<img src="assets/facebook.png">
+					<img src="assets/twitter.png">
+					<img src="assets/linkedIn.png">
+				</th>
+			</tr>
+			<tr>
+				<td>Websites</td>
+				<td>Software Installations</td>
+				<td>Become an Affiliate</td>
+				<td>Small Business Advisor</td>
+			</tr>
+			<tr>
+				<td>Domain</td>
+				<td>Software Configurations</td>
+				<td>Our Partners</td>
+				<td>Customer Care</td>
+			</tr>
+			<tr>
+				<td>Hosting</td>
+				<td>Local Network Configurations</td>
+			</tr>
+			<tr>
+				<td>Stores</td>
+				<td>Troubleshooting and Repairs</td>
+			</tr>
+			<tr>
+				<td>Business Emails</td>
+			</tr>
+		</table>
+	</div>
 	</footer>
 </body>
 </html>
