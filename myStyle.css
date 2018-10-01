@@ -374,7 +374,8 @@ template {
 /*slideshow*/
 #slideshow{
   width:100%;
-  /*bottom:3.5em;*/
+  height: 220px;
+  bottom:2em;
 }
 /*Slideshow left arrow*/
 #slideshow > img:nth-child(1){
@@ -392,6 +393,29 @@ template {
     bottom: 0;
     margin: auto;
 }
+#slideshow .arrow-btn:hover{
+      background-color: var(--main-color);
+    padding: 0.5em 0;
+    border-radius: 2px;
+}
+.carousel-left{
+  transform: translateX(-100vw);
+  transition:1s;
+}
+.carousel-right{
+  transform: translateX(100vw);
+  transition:1s;
+}
+.carousel-stage-right{
+  transform: translateX(100vw);
+}
+.carousel-stage-left{
+  transform: translateX(-100vw);
+}
+.carousel-show{
+  transform: translateX(0px);
+  transition: 1s;
+}
 .center{
   position: absolute;
   top: 0;
@@ -408,13 +432,22 @@ template {
   background-color: white;
   border-radius: 50%;
   margin:0 auto;
-  display: none;
+  /*display: none;*/
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  visibility: hidden;
 }
 .circle.selected{
-  display: block;
+ /* display: block;*/
+  visibility: visible;
 }
 /*Slideshow dots*/
 #dots {
+  width:100%;
+  position: absolute;
+  bottom:0;
   text-align: center;
   margin-top:1em;
 }
@@ -617,11 +650,11 @@ footer #desktop-content{
   width:200px;
   right:-200px;
   top:0;
-  background-color:green;
+  background-color: #282828;
 }
 .open-menu{
   transform: translateX(-200px);
-   transition: 1s;
+   transition: 0.5s;
  /* animation-name: slideLeft;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;*/
@@ -629,8 +662,9 @@ footer #desktop-content{
 }
 .close-menu{
   transform: translateX(0px);
-   transition: 1s;
+   transition: 0.5s;
 }
+
 @keyframes slideLeft{
   0%{ overflow-x: hidden; transform: translateX(0px); }
   1%{overflow-x: visible;}
@@ -656,10 +690,15 @@ footer #desktop-content{
   }
   #slideshow{
     text-align: center;
+    bottom: 0;
   }
   .circle, .circle.selected{
     display: inline-block;
     margin:0 1em;
+  }
+  .circle{
+    position: relative;
+    visibility: visible;
   }
   section{
     padding:3.5em;

@@ -2,26 +2,90 @@ const menuBtn = document.getElementById('menu-btn');
 
 function toggleBtn(){
   menuBtn.classList.toggle("change");
-  //change overflow hidden and left attribute of container . class
+  var navbar = document.getElementById("navbar");
+  var container = document.getElementsByClassName("container")[0];
+  var body = document.getElementsByTagName("body")[0];
   var x =   document.getElementsByClassName("container")[0];
+
+
   if(!x.classList.contains("open-menu")){
-  	document.getElementsByClassName("container")[0].style.overflowX = "visible";
+
+  	container.style.overflowX = "visible";
   	x.classList.add("open-menu");
-  	document.getElementById("navbar").classList.add("open-menu");
-  	document.getElementById("navbar").classList.remove("close-menu");
+  	navbar.classList.add("open-menu");
+  	navbar.classList.remove("close-menu");
   	x.classList.remove("close-menu");
+
   	setTimeout(function() { 
-    document.getElementsByTagName("body")[0].style.overflowX = "hidden";
+    	body.style.overflowX = "hidden";
   	}, 1000);
+
   }else{
   	x.classList.add("close-menu");
-  	document.getElementById("navbar").classList.add("close-menu");
-  	document.getElementById("navbar").classList.remove("open-menu");
+  	navbar.classList.add("close-menu");
+  	navbar.classList.remove("open-menu");
   	x.classList.remove("open-menu");
+
   	setTimeout(function() { 
-    document.getElementsByClassName("container")[0].style.overflowX = "hidden";
-    document.getElementsByTagName("body")[0].style.overflowX = "visible";
+	    container.style.overflowX = "hidden";
+	    body.style.overflowX = "visible";
   	}, 1000);
   }
-
 }
+
+var arr = ["one", "two", "three"];
+var dotArray = ["dot1", "dot2", "dot3"];
+let currIndex = 0;
+/*move to the next picture in array of slideshow images*/
+function next(){
+	console.log("called next , index: "+ currIndex);
+	stripCarouselClasses(currIndex);
+	document.getElementById(arr[currIndex]).classList.add("carousel-left");
+	
+	var newCurrIndex = (currIndex+1) % arr.length;
+	/*change dots*/
+	document.getElementById(dotArray[currIndex]).classList.remove("selected");
+	document.getElementById(dotArray[newCurrIndex]).classList.add("selected");
+	/*stage new selected element*/
+	document.getElementById(arr[newCurrIndex]).classList.add("carousel-stage-right");
+	document.getElementById(arr[newCurrIndex]).classList.add("selected");
+	setTimeout(function(){
+		console.log(currIndex);
+		document.getElementById(arr[newCurrIndex]).classList.add("carousel-show");
+		document.getElementById(arr[currIndex]).classList.remove("carousel-left");
+		currIndex = newCurrIndex;
+	},400);
+}
+
+
+function stripCarouselClasses(id){
+	let x = document.getElementById(arr[currIndex]).classList;
+	x.remove("selected");
+	x.remove("carousel-show");
+	x.remove("carousel-stage-right");
+	x.remove("carousel-stage-left");
+}
+
+function previous(){
+	console.log("called next , index: "+ currIndex);
+	stripCarouselClasses(currIndex);
+	document.getElementById(arr[currIndex]).classList.add("carousel-right");
+	
+	var newCurrIndex =  currIndex-1 % arr.length ;
+	if(newCurrIndex < 0){
+		newCurrIndex = arr.length -1;
+	}
+	/*change dots*/
+	document.getElementById(dotArray[currIndex]).classList.remove("selected");
+	document.getElementById(dotArray[newCurrIndex]).classList.add("selected");
+	/*stage new selected element*/
+	document.getElementById(arr[newCurrIndex]).classList.add("carousel-stage-left");
+	document.getElementById(arr[newCurrIndex]).classList.add("selected");
+	setTimeout(function(){
+		console.log(currIndex);
+		document.getElementById(arr[newCurrIndex]).classList.add("carousel-show");
+		document.getElementById(arr[currIndex]).classList.remove("carousel-right");
+		currIndex = newCurrIndex;
+	},400);
+}
+
