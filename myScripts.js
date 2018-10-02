@@ -98,8 +98,14 @@ window.addEventListener('scroll', function(e){
     	hideNavBar();
     }else{
     	console.log("scrolling up");
+    	if(last_known_scroll_position <50){
+    		document.getElementById("navbar").style.boxShadow = "none";
+    	}else{
+    		document.getElementById("navbar").style.boxShadow = "0px 2px 2px lightgrey";
+    	}
     	showNavBar();
     }
+
     scrollPos = last_known_scroll_position;
 });
 
@@ -111,3 +117,4 @@ function showNavBar(){
 function hideNavBar(){
 	document.getElementById("navbar").style.display = "none";
 }
+
