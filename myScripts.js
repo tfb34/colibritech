@@ -89,3 +89,25 @@ function previous(){
 	},400);
 }
 
+let scrollPos = null;
+window.addEventListener('scroll', function(e){
+	last_known_scroll_position = window.scrollY;
+    
+    if(last_known_scroll_position > scrollPos){
+    	console.log("scrolling down");
+    	hideNavBar();
+    }else{
+    	console.log("scrolling up");
+    	showNavBar();
+    }
+    scrollPos = last_known_scroll_position;
+});
+
+
+function showNavBar(){
+	document.getElementById("navbar").style.display = "block";
+}
+
+function hideNavBar(){
+	document.getElementById("navbar").style.display = "none";
+}
