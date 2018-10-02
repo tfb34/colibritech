@@ -18,7 +18,7 @@ function toggleBtn(){
 
   	setTimeout(function() { 
     	body.style.overflowX = "hidden";
-  	}, 1000);
+  	}, 400);
 
   }else{
   	x.classList.add("close-menu");
@@ -29,7 +29,7 @@ function toggleBtn(){
   	setTimeout(function() { 
 	    container.style.overflowX = "hidden";
 	    body.style.overflowX = "visible";
-  	}, 1000);
+  	}, 400);
   }
 }
 
