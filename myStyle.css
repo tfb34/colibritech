@@ -655,10 +655,6 @@ footer #desktop-content{
 .open-menu{
   transform: translateX(-200px);
    transition: 0.5s;
- /* animation-name: slideLeft;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;*/
- /* animation-duration: 1s;*/
 }
 .close-menu{
   transform: translateX(0px);
@@ -670,7 +666,25 @@ footer #desktop-content{
   1%{overflow-x: visible;}
   100%{overflow-x: visible;transform: translateX(-200px);}
 }
-
+.no-list-style{
+  list-style-type: none;
+}
+.no-list-style a{
+  text-decoration: none;
+}
+.mobile-menu ul li a, .mobile-menu{
+  color:white;
+}
+.mobile-menu h4{
+  padding-left:2em;
+}
+.mobile-menu li{
+  padding:0.5em 0;
+}
+.mobile-menu .sublink{
+  font-size:smaller;
+  padding-left:1em;
+}
 @media only screen and (min-width: 425px){
   .col-3{
     width:300px;
@@ -732,7 +746,7 @@ section.white-background #text-container{
 }
 section.white-background #text-container h4{
   color:black;
-  width:900px;
+  max-width:900px;
 }
 /*laptop*/
 @media only screen and (min-width:1024px){
