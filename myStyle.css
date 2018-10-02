@@ -732,6 +732,7 @@ section.white-background #text-container{
 }
 section.white-background #text-container h4{
   color:black;
+  width:900px;
 }
 /*laptop*/
 @media only screen and (min-width:1024px){
