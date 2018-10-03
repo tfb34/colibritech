@@ -1,38 +1,32 @@
 const menuBtn = document.getElementById('menu-btn');
 
+let closed = true;
+
 function toggleBtn(){
+
   menuBtn.classList.toggle("change");
   var navbar = document.getElementById("navbar");
-  var container = document.getElementsByClassName("container")[0];
   var body = document.getElementsByTagName("body")[0];
   var x =   document.getElementsByClassName("container")[0];
+  var mobileMenu = document.getElementsByClassName("mobile-menu")[0];
 
-
-  if(!x.classList.contains("open-menu")){
-
-  	container.style.overflowX = "visible";
-  	x.classList.add("open-menu");
-  	navbar.classList.add("open-menu");
-  	navbar.classList.remove("close-menu");
-  	x.classList.remove("close-menu");
-
-  	setTimeout(function() { 
-    	body.style.overflowX = "hidden";
-  	}, 400);
-
+  if(closed){
+  	mobileMenu.style.transform = "translateX(-200px)";
+  	navbar.style.transform = "translateX(-200px)";
+  	x.style.transform = "translateX(-200px)";
+  	body.style.overflowY = "hidden";
+  	closed = false;
   }else{
-  	x.classList.add("close-menu");
-  	navbar.classList.add("close-menu");
-  	navbar.classList.remove("open-menu");
-  	x.classList.remove("open-menu");
-
-  	setTimeout(function() { 
-	    container.style.overflowX = "hidden";
-	    body.style.overflowX = "visible";
-  	}, 400);
+  	mobileMenu.style.transform = "none";
+  	navbar.style.transform = "none";
+  	x.style.transform = "none";
+  	body.style.overflowY = "visible";
+  	closed = true;
   }
 }
 
+
+/*Carousel on index page*/
 var arr = ["one", "two", "three"];
 var dotArray = ["dot1", "dot2", "dot3"];
 let currIndex = 0;
@@ -89,6 +83,8 @@ function previous(){
 	},400);
 }
 
+
+/*Hides navigation bar only when scrolling down*/
 let scrollPos = null;
 window.addEventListener('scroll', function(e){
 	last_known_scroll_position = window.scrollY;

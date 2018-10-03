@@ -472,6 +472,7 @@ template {
   width:100%;
   height:50px;
   box-shadow: none;
+  transition: 0.5s;
 }
 /*Mobile menu logo*/
 #navbar > img{
@@ -479,7 +480,6 @@ template {
   position: absolute;
   top: 0;
   left: 1em;
-  /* right: 0; */
   bottom: 0;
   margin: auto;
 }
@@ -491,7 +491,6 @@ template {
   height: 18px;
   position: absolute;
   top: 0;
-    /* left: 0; */
   right: 1em;
   bottom: 0;
   margin: auto;
@@ -643,6 +642,7 @@ footer #desktop-content{
 .container{
   position: relative;
   overflow-x: hidden;
+  transition:0.5s;
 }
 .mobile-menu{
   position: fixed;
@@ -651,14 +651,9 @@ footer #desktop-content{
   right:-200px;
   top:0;
   background-color: #282828;
-}
-.open-menu{
-  transform: translateX(-200px);
-   transition: 0.5s;
-}
-.close-menu{
-  transform: translateX(0px);
-   transition: 0.5s;
+  transition: 0.5s;
+  padding-right: 1em;
+  box-sizing: border-box;
 }
 
 @keyframes slideLeft{
