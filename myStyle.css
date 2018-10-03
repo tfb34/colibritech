@@ -692,7 +692,7 @@ section.white-background{
 }
 section.white-background #text-container{
   color:var(--main-color);
-  margin-bottom: 0em;
+  margin-bottom: 1em;
 }
 section.white-background #text-container h4{
   color:black;
@@ -704,6 +704,9 @@ section.white-background #text-container h4{
 }
 .services img{
   width:150px;
+}
+.services h2{
+  font-size: 1.2em
 }
 .info-button{
   padding: 0.8em 2em;
@@ -770,7 +773,13 @@ section.white-background #text-container h4{
   .overview p{
     font-size: 20px;
   }
-
+  .services h2{
+    font-size: 1.5em
+  }
+  section.white-background #text-container{
+    color:var(--main-color);
+    margin-bottom: 3em;
+  }
 }
 /*laptop*/
 @media only screen and (min-width:1024px){
@@ -838,6 +847,10 @@ section.white-background #text-container h4{
   }
   #links{
     display: none;
+  }
+  section.white-background #text-container{
+    color:var(--main-color);
+    margin-bottom: 5em;
   }
 }
 @media only screen and (min-width: 1440px){
