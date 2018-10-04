@@ -645,6 +645,49 @@ footer #desktop-content{
   max-width:500px;
   margin:0 auto;
 }
+.col-2{
+  width:100%;
+  box-sizing: border-box;
+}
+#contact-container{
+  text-align: left;
+  color: rgba(0,0,0,0.5);
+  margin-top:6em;
+}
+#contact-container a{
+  text-decoration: none;
+  display: block;
+  color: rgba(0,0,0,0.5);
+  padding:0.5em 0;
+}
+.contact-icons{
+  width:24px;
+  margin-right:0.5em;
+  vertical-align: middle;
+}
+.media-buttons{
+  margin:2em 0;
+}
+.media-buttons .icons{
+  width:16px;
+  margin:0;
+}
+.media-buttons div{
+    padding: 1em 1.2em;
+    background-color: var(--main-color);
+    border-radius: 100%;
+    width: min-content;
+    display: unset;
+}
+.media-buttons > a{
+  display: inline-block !important;
+  margin-right:1em;
+}
+.media-buttons:after{
+  content:"";
+  display: block;
+  clear:both;
+}
 /*mobile menu*/
 .container{
   position: relative;
@@ -759,6 +802,33 @@ section.white-background #text-container h4{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+/*Contact form*/
+form{
+  text-align: right;
+}
+form input, form textarea{
+  width:100%;box-sizing:border-box;
+  padding:1.5em 2em;
+  background-color:#e6e6e6ff;
+  border:none;
+  font-size:18px
+}
+#messageInput{
+  resize: none;
+  height:190px;
+}
+form input[type="submit"]{
+  color:white;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 5px;
+  padding:0.5em 1em;
+  width: unset;
+  cursor: pointer;
+}
+form input, form textarea{
+  margin-bottom: 0.5em;
+}
 @media only screen and (min-width: 425px){
   .col-3{
     width:300px;
@@ -837,6 +907,18 @@ section.white-background #text-container h4{
     opacity: 1;
     max-width: none;
     width: 350px;
+  }
+  .col-2{
+    width:50%;
+    float: left;
+  }
+  form input, form textarea{
+    width:90%;
+  }
+  #contact-container:after{
+    content:"";
+    display: table;
+    clear: both;
   }
   
 }
