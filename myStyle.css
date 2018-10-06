@@ -829,6 +829,33 @@ form input[type="submit"]{
 form input, form textarea{
   margin-bottom: 0.5em;
 }
+/*web-design-development page circles*/
+.features-circle{
+  width:70px;
+  height:70px;
+  background-color:#1461caff;
+  border-radius:100%;
+  border:15px solid rgba(74,124,210,255);
+  position:relative;
+  cursor: pointer;
+  margin:0 auto;
+}
+.features-circle h2{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width:fit-content;
+  height:fit-content;
+  text-align:center;
+  color:white;
+}
+.features-circle:hover{
+  border:15px solid #1461caff;
+  transition:0.5s;
+}
 @media only screen and (min-width: 425px){
   .col-3{
     width:300px;
