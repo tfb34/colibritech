@@ -640,6 +640,11 @@ footer #desktop-content{
 .row{
   width:100%;
 }
+.row:after{
+  content: "";
+  display: table;
+  clear:both;
+}
 .col-3{
   width:100%;
   max-width:500px;
@@ -856,9 +861,151 @@ form input, form textarea{
   border:15px solid #1461caff;
   transition:0.5s;
 }
+/*My grid framework*/
+.column{
+    box-sizing: border-box;
+}
+[class*=column]{
+    position: relative;
+    float:left;
+}
+[class*=column] + [class*=column]{
+    margin-left: 1.6%;
+}
+.column-1{
+    width: 6.866666667%;
+}
+.column-2{
+    width: 15.3333333333%;
+}
+.column-3{
+    width: 23.8%;
+}
+.column-4{
+    width: 32.2666666667%;
+}
+.column-5{ 
+    width: 40.7333333333%;
+}
+.column-6{
+    width: 49.2%;
+}
+.column-7{
+    width: 57.6666666667%;
+}
+.column-8{
+    width: 66.1333333333%;
+}
+.column-9{
+    width: 74.6%;
+}
+.column-10{
+    width: 83.06666667%;
+}
+.column-11{
+    width: 91.5333333333%;
+}
+.column-12{
+    width:100%;
+}
+/*offset*/
+.column-offset-1{
+    margin-left: 8.466666667%;
+}
+.column-offset-2{
+    margin-left: 16.93333333%;
+}
+.column-offset-3{
+    margin-left: 25.4%;
+}
+.column-offset-4{
+    margin-left: 33.866666667%;
+}
+.column-offset-5{
+    margin-left: 42.333333333%;
+}
+.column-offset-6{
+    margin-left: 50.8%;
+}
+.column-offset-7{
+    margin-left: 59.266666667%;
+}
+.column-offset-8{
+    margin-left: 67.733333333%;
+}
+.column-offset-9{
+    margin-left: 76.2%;
+}
+.column-offset-10{
+    margin-left: 84.666666667%;
+}
+.column-offset-11{
+    margin-left: 93.133333333%;
+}
+/*Portfolio pics*/
+.portfolio-pic{
+  width:90%;
+  padding-bottom:1em;
+}
+#price-content > div{
+  width: 49%;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+#price-content > div h2{
+  text-align: right;
+  width: 65px;
+  font-size: 30px;
+  margin-top: 0.5em;
+}
+#price-content h1{
+  font-weight: lighter;
+  text-align: right;
+  font-size: 80px;
+  margin: 0;
+}
+#price-description h3{
+  font-weight: lighter;max-width:700px;margin-top:0em;
+}
+#price-content> h2{
+  display: none;
+}
+#technologies h3{
+  color:black;
+}
+#technologies p{
+  max-width:300px;
+  margin:0 auto;
+}
 @media only screen and (min-width: 425px){
   .col-3{
     width:300px;
+  }
+}
+/*my-grid*/
+@media only screen and (max-width: 768px){
+    .column-1,
+    .column-2,
+    .column-3,
+    .column-4,
+    .column-5,
+    .column-6,
+    .column-7,
+    .column-8,
+    .column-9,
+    .column-10,
+    .column-11,
+    .column-12 {
+        width: 100%;
+        float: none;
+    }
+
+    [class*=column]{
+      margin-left: 0;
+    }
+    [class*=column] + [class*=column]{
+    margin-left: 0;
   }
 }
 /*tablet style*/
@@ -916,6 +1063,9 @@ form input, form textarea{
     color:var(--main-color);
     margin-bottom: 3em;
   }
+  .portfolio-pic{
+    width:80%;
+  }
 }
 /*laptop*/
 @media only screen and (min-width:1024px){
@@ -947,7 +1097,30 @@ form input, form textarea{
     display: table;
     clear: both;
   }
-  
+  .portfolio-pic{
+    width:90%;
+    padding-bottom:0;
+    margin-left:2em;
+  }
+  #portfolio-main{
+    width:100%;
+    margin-left:0em;
+  }
+  #portfolio-bottom{
+    padding-top:1.8em;
+  }
+  #small-portfolio-pics{
+    text-align: left;
+  }
+  #price-content > div{
+    display: none;
+  }
+  #price-content> h2{
+    display: block;
+  }
+  #price-description h3{
+    margin-top:1.8em;
+  }
 }
 @media only screen and (min-width:1364px){
   #text-container h1{
