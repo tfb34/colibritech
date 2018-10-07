@@ -542,7 +542,8 @@ template {
 }
 /*key facts section*/
 section{
-  text-align: center; color:#a3a3a3;padding:1em;
+  text-align: center; /*color:#a3a3a3*/;padding:1em;
+   color:#33302e;
 }
 .underline{
   width: 7em;
@@ -678,7 +679,8 @@ footer #desktop-content{
   margin:0;
 }
 .media-buttons div{
-    padding: 1em 1.2em;
+    /*padding: 1em 1.2em;*/
+    padding: 0.5em 0.7em;
     background-color: var(--main-color);
     border-radius: 100%;
     width: min-content;
@@ -820,7 +822,7 @@ form input, form textarea{
 }
 #messageInput{
   resize: none;
-  height:190px;
+  height:170px;
 }
 form input[type="submit"]{
   color:white;
@@ -836,11 +838,11 @@ form input, form textarea{
 }
 /*web-design-development page circles*/
 .features-circle{
-  width:70px;
-  height:70px;
+  width:50px;
+  height:50px;
   background-color:#1461caff;
   border-radius:100%;
-  border:15px solid rgba(74,124,210,255);
+  border:10px solid rgba(74,124,210,255);
   position:relative;
   cursor: pointer;
   margin:0 auto;
@@ -858,7 +860,7 @@ form input, form textarea{
   color:white;
 }
 .features-circle:hover{
-  border:15px solid #1461caff;
+  border:10px solid #1461caff;
   transition:0.5s;
 }
 /*My grid framework*/
@@ -977,6 +979,19 @@ form input, form textarea{
 #technologies p{
   max-width:300px;
   margin:0 auto;
+  color:black;
+}
+#key-technologies{
+   position: relative;
+  background: url("assets/web-development-pic.svg");
+  min-height:577px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#key-technologies .column-6{
+  margin-top: 3em;
 }
 @media only screen and (min-width: 425px){
   .col-3{
@@ -1039,6 +1054,7 @@ form input, form textarea{
     font-size:2.5em;
   }
   .col-3{
+ 
     display: inline-block;
     margin:0 2em;
   }

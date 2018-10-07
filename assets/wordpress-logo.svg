@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="18.489079mm"
+   height="18.489079mm"
+   viewBox="0 0 18.489079 18.489078"
+   version="1.1"
+   id="svg3671"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="wordpress-logo.svg">
+  <defs
+     id="defs3665">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath47191-0">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 8.9802558,47.815146 5.9868372,209.45975 H 270.15604 L 265.6659,49.311854 265.6418,46.944846 Z"
+         id="path47193-9"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <linearGradient
+       osb:paint="gradient"
+       id="linearGradient66534">
+      <stop
+         id="stop66530"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop66532"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <clipPath
+       id="clipPath66560"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-90)"
+         y="-595.32269"
+         x="664.56854"
+         height="186.36656"
+         width="313.93396"
+         id="rect66562"
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.26458332" />
+    </clipPath>
+    <clipPath
+       id="clipPath66556"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-595.32269"
+         x="664.56854"
+         height="186.36656"
+         width="313.93396"
+         id="rect66558"
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.26458332" />
+    </clipPath>
+    <filter
+       height="3.0544198"
+       y="-1.0272099"
+       width="1.1716332"
+       x="-0.085816644"
+       id="filter66548"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur66550"
+         stdDeviation="11.247086"
+         inkscape:collect="always" />
+    </filter>
+    <clipPath
+       id="clipPath66560-0"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-90)"
+         y="-595.32269"
+         x="664.56854"
+         height="186.36656"
+         width="313.93396"
+         id="rect66562-0"
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.26458332" />
+    </clipPath>
+    <clipPath
+       id="clipPath66564"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-595.32269"
+         x="664.56854"
+         height="186.36656"
+         width="313.93396"
+         id="rect66566"
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.26458332" />
+    </clipPath>
+    <symbol
+       id="wordpress"
+       viewBox="0 0 512 512">
+      <title
+         id="wordpress-title">WordPress Logo</title>
+      <path
+         d="M61.7 169.4l101.5 278C92.2 413 43.3 340.2 43.3 256c0-30.9 6.6-60.1 18.4-86.6zm337.9 75.9c0-26.3-9.4-44.5-17.5-58.7-10.8-17.5-20.9-32.4-20.9-49.9 0-19.6 14.8-37.8 35.7-37.8.9 0 1.8.1 2.8.2-37.9-34.7-88.3-55.9-143.7-55.9-74.3 0-139.7 38.1-177.8 95.9 5 .2 9.7.3 13.7.3 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l77.5 230.4L249.8 247l-33.1-90.8c-11.5-.7-22.3-2-22.3-2-11.5-.7-10.1-18.2 1.3-17.5 0 0 35.1 2.7 56 2.7 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l76.9 228.7 21.2-70.9c9-29.4 16-50.5 16-68.7zm-139.9 29.3l-63.8 185.5c19.1 5.6 39.2 8.7 60.1 8.7 24.8 0 48.5-4.3 70.6-12.1-.6-.9-1.1-1.9-1.5-2.9l-65.4-179.2zm183-120.7c.9 6.8 1.4 14 1.4 21.9 0 21.6-4 45.8-16.2 76.2l-65 187.9C426.2 403 468.7 334.5 468.7 256c0-37-9.4-71.8-26-102.1zM504 256c0 136.8-111.3 248-248 248C119.2 504 8 392.7 8 256 8 119.2 119.2 8 256 8c136.7 0 248 111.2 248 248zm-11.4 0c0-130.5-106.2-236.6-236.6-236.6C125.5 19.4 19.4 125.5 19.4 256S125.6 492.6 256 492.6c130.5 0 236.6-106.1 236.6-236.6z"
+         id="path7962" />
+    </symbol>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-35.754041"
+     inkscape:cy="25.659034"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showborder="false" />
+  <metadata
+     id="metadata3668">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 1"
+     style="display:inline"
+     transform="translate(-251.83252,262.57181)">
+    <rect
+       y="-66.186974"
+       x="-37.773853"
+       height="238.53809"
+       width="313.4101"
+       id="rect33855"
+       style="display:inline;fill:#ffffff;fill-rule:evenodd;stroke-width:0.26458335" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.06957099;filter:url(#filter66548)"
+       id="rect66526"
+       width="314.54279"
+       height="26.277985"
+       x="664.56854"
+       y="-595.32269"
+       clip-path="url(#clipPath66556)"
+       transform="translate(-702.83336,599.85734)" />
+    <use
+       id="use16211"
+       style="fill:#000000;stroke:none"
+       xlink:href="#wordpress"
+       transform="matrix(0.98083183,0,0,0.99575367,252.00972,-262.53255)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Layer 2"
+     transform="translate(-256.83901,274.90235)" />
+</svg>
