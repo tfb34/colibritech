@@ -524,11 +524,6 @@ template {
   color:white;
   background-color: var(--main-color);
 }
-#desktop-menu #sort-down-icon{
-    width: 14px;
-    vertical-align: middle;
-    margin: 0 5px;
-}
 .change .bar1{
   -webkit-transform: translateY(6px) rotate(45deg);
   transform: translateY(6px) rotate(45deg);
