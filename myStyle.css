@@ -362,7 +362,7 @@ template {
 #text-container{
   margin: 7em 0 3em 0;
   box-sizing: border-box;
-  height: 200px;
+  min-height: 200px;
   text-align: center;
   padding:0 1em;
   color:white;
@@ -968,7 +968,7 @@ form input, form textarea{
 #price-description h3{
   font-weight: lighter;max-width:700px;margin-top:0em;
 }
-#price-content> h2{
+#price-content > h2{
   display: none;
 }
 #technologies h3{
@@ -990,6 +990,29 @@ form input, form textarea{
 }
 #key-technologies .column-6{
   margin-top: 3em;
+}
+#network-computer-parallax{
+  position: relative;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("assets/technical-support-parallax.jpeg");
+  min-height:577px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#network-computer-parallax img{
+  width:50px;
+}
+#network-computer-parallax .column-4{
+  padding:2em 0;
+}
+#network-computer-parallax .row{
+  margin:0 auto;
+}
+@media only screen and (max-width:500px){
+  #network-computer-parallax h1{
+    font-size:1.2em;
+  }
 }
 @media only screen and (min-width: 425px){
   .col-3{
@@ -1135,11 +1158,14 @@ form input, form textarea{
   #price-description h3{
     margin-top:1.8em;
   }
+  #network-computer-parallax .row{
+    margin:4em auto;
+  }
 }
 @media only screen and (min-width:1364px){
-  #text-container h1{
+ /* #text-container h1{
     font-size:4em;
-  }
+  }*/
   #text-container h4{
     width: 650px;
     margin: 0 auto;
@@ -1190,7 +1216,7 @@ form input, form textarea{
 }
 @media only screen and (min-width: 1440px){
   #text-container h1{
-    font-size:4.5em;
+    font-size:3.5em;
   }
   #text-container h4{
     font-size:28px;
