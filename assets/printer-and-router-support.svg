@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="105.11071"
+   height="74.453423"
+   viewBox="0 0 27.810543 19.699134"
+   version="1.1"
+   id="svg3671"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="printer-and-router-support.svg">
+  <defs
+     id="defs3665">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath47191-0">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 8.9802558,47.815146 5.9868372,209.45975 H 270.15604 L 265.6659,49.311854 265.6418,46.944846 Z"
+         id="path47193-9"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <linearGradient
+       osb:paint="gradient"
+       id="linearGradient66534">
+      <stop
+         id="stop66530"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop66532"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <clipPath
+       id="clipPath66560"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-90)"
+         y="-595.32269"
+         x="664.56854"
+         height="186.36656"
+         width="313.93396"
+         id="rect66562"
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.26458332" />
+    </clipPath>
+    <clipPath
+       id="clipPath66556"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-595.32269"
+         x="664.56854"
+         height="186.36656"
+         width="313.93396"
+         id="rect66558"
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.26458332" />
+    </clipPath>
+    <clipPath
+       id="clipPath66560-0"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-90)"
+         y="-595.32269"
+         x="664.56854"
+         height="186.36656"
+         width="313.93396"
+         id="rect66562-0"
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.26458332" />
+    </clipPath>
+    <clipPath
+       id="clipPath66564"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-595.32269"
+         x="664.56854"
+         height="186.36656"
+         width="313.93396"
+         id="rect66566"
+         style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.26458332" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="66.822964"
+     inkscape:cy="29.616738"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showborder="true"
+     units="px"
+     inkscape:pagecheckerboard="true" />
+  <metadata
+     id="metadata3668">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 1"
+     style="display:inline"
+     transform="translate(-277.25313,274.52819)">
+    <g
+       id="use37477"
+       style="fill:#ffffff;stroke:none"
+       transform="matrix(1.2474514,0,0,1.2474514,276.46342,-279.92248)">
+      <circle
+         cx="6.1799998"
+         cy="17.82"
+         r="2.1800001"
+         id="circle18265" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 4,4.44 v 2.83 c 7.03,0 12.73,5.7 12.73,12.73 h 2.83 C 19.56,11.41 12.59,4.44 4,4.44 Z m 0,5.66 v 2.83 c 3.9,0 7.07,3.17 7.07,7.07 H 13.9 C 13.9,14.53 9.47,10.1 4,10.1 Z"
+         id="path18267" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Layer 2"
+     transform="translate(-282.25962,286.85873)" />
+</svg>
