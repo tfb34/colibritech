@@ -1110,7 +1110,7 @@ form input, form textarea{
   .overview img{
     top: 0;
     /* left: 0; */
-   right: 4em;
+   right: 0;
     bottom: 0;
     margin: auto;
     opacity: 1;
