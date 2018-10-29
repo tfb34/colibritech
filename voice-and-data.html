@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>colibritech</title>
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,600" rel="stylesheet">
+</head>
+<body>
+	<div id="navbar">
+		<img src="assets/logo-bahnschrift.svg">
+		<div id="menu-btn" onclick="toggleBtn()">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
+		<ul id="desktop-menu" class="center" style="height:24px;">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li>
+				<div class="dropdown">
+				  <a href="services.html">Services</a>
+				  <div class="dropdown-content">
+				    <a href="network-support-and-computer-repair.html">Network Support and Computer Repair</a>
+				    <a href="web-design-and-development.html">Web Design and Development</a>
+				    <a href="voice-and-data.html">Voice and Data</a>
+				  </div>
+				</div>
+			</li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+<div class="container">
+	<section class="white-background">
+		<div id="text-container" style="position: relative;">
+			<h1 class="smaller-main-header">Voice and Data Services</h1>
+			<h4>Providing a wide variety of voice and data services to fit your needs</h4>
+		</div>		
+	</section>
+<!-- 	Scrolling-parallax -->
+	<section id="voice-and-data-parallax" style="color:white;">
+		<h1 style="font-weight: lighter;">Colibritech Offers</h1>
+		<span class="underline" style="margin-bottom:2em;"></span>
+		<div class="row">
+			<div class="column-4">
+				<ul class="voice-data-list">
+					<li>Setup your business introductory message</li>
+					<li>Have Departmental extensions</li>
+					<li>Fax capabilities via email</li>
+					<li>Conference calling with unlimited number of users</li>
+				</ul>
+			</div>
+			<div class="column-4">
+				<ul class="voice-data-list">
+					<li>Call log and Voice messaging for each extension</li>
+					<li>Technical Support</li>
+					<li>Direct calls to different representatives so you never miss a customer call</li>
+				</ul>
+			</div>
+			<div class="column-4">
+				<ul class="voice-data-list">
+					<li>Single point of contact</li>
+					<li>Simple, custom reporting and billing</li>
+					<li>Thorough analysis of existing service</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+    <section style="background-color: #f1f1f1;">
+			<div style="max-width: 1000px;margin:0 auto;position: relative;">
+				<h1 style="font-weight: lighter;">Get In Touch</h1>
+				<span class="underline"></span>	
+				<div class="row" id="contact-container">
+					<div class="col-2">
+						<p style="max-width: 400px;margin-top:0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h4 style="margin: 0;">Colibritech</h4>
+						<p>75 Redwood Rd<br>Springfield, NJ 07081</p>
+						<a href="mailto:example@example.com"><img src="assets/email.svg" class="contact-icons"> example@example.com</a>
+						<a href="tel:+9088900896"><img src="assets/phone.svg" class="contact-icons"> (908)-890-0896</a>
+						<p>Mon-Fri 9AM - 7PM EST</p>
+						<p style="margin:0;">Saturday 9AM - 1PM</p>
+						<div class="media-buttons">
+							<a href="#"><div><img src="assets/facebook-white.png" class="icons"></div></a>
+							<a href="#"><div><img src="assets/twitter-white.png" class="icons"></div></a>
+							<a href="#"><div><img src="assets/linkedIn-white.png" class="icons"></div></a>
+						</div>
+					</div>
+					<div class="col-2">
+						<form action="/action_page.php">
+		  					<input type="text" name="name" placeholder="Your Name" required>
+			  				<input type="email" name="email" placeholder="Email" required>
+			  				<textarea name="message" id="messageInput" row="20" cols="30" placeholder="How can we help you?"></textarea>
+			  				<input type="submit" value="Send">
+						</form> 
+					</div>
+				</div>
+			</div>
+		</section>
+	<section id="links">
+		<h3><a href="about.html">Who We Are</a></h3>
+		<h3><a href="services.html">What We Do</a></h3>
+		<h3><a href="contact.html">Get In Touch</a></h3>
+	</section>
+	<footer>
+		<div id="mobile-content">
+			<img src="assets/facebook.png">
+			<img src="assets/twitter.png">
+			<img src="assets/linkedIn.png">
+		</div>
+		<div id="desktop-content" style="width:1200px;margin:0 auto;">
+			<table>
+				<tr>
+					<th>Services</th>
+					<th>IT Services</th>
+					<th>Business Relations</th>
+					<th>Resources</th>
+					<th>
+						<img src="assets/facebook.png">
+						<img src="assets/twitter.png">
+						<img src="assets/linkedIn.png">
+					</th>
+				</tr>
+				<tr>
+					<td>Websites</td>
+					<td>Software Installations</td>
+					<td>Become an Affiliate</td>
+					<td>Small Business Advisor</td>
+				</tr>
+				<tr>
+					<td>Domain</td>
+					<td>Software Configurations</td>
+					<td>Our Partners</td>
+					<td>Customer Care</td>
+				</tr>
+				<tr>
+					<td>Hosting</td>
+					<td>Local Network Configurations</td>
+				</tr>
+				<tr>
+					<td>Stores</td>
+					<td>Troubleshooting and Repairs</td>
+				</tr>
+				<tr>
+					<td>Business Emails</td>
+				</tr>
+			</table>
+		</div>
+	</footer>
+</div>
+	<div class="mobile-menu">
+		<h4>Colibritech Menu</h4>
+		<ul class="no-list-style">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li class="sublink"><a href="network-support-and-computer-repair.html">Network Support and Computer Repair</a></li>
+			<li class="sublink"><a href="web-design-and-development.html">Web Design and Development</a></li>
+			<li class="sublink"><a href="voice-and-data.html">Voice and Data</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="myScripts.js"></script>
+</body>
+</html>

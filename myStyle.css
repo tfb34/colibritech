@@ -1004,9 +1004,32 @@ form input, form textarea{
 #network-computer-parallax .row{
   margin:0 auto;
 }
+#voice-and-data-parallax{
+  position: relative;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("assets/voice-and-data-parallax.jpg");
+  /*min-height:577px;*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.voice-data-list{
+  text-align: left;
+}
+.voice-data-list li{
+  padding:1em 0;
+  font-weight: 600;
+
+}
+.circle:hover{
+  background-color: #3548ae;
+  color:white;
+  transition: 0.2s;
+
+}
 @media only screen and (max-width:500px){
-  #network-computer-parallax h1{
-    font-size:1.2em;
+  #network-computer-parallax h1, #voice-and-data-parallax h1{
+    font-size:1.5em;
   }
 }
 @media only screen and (min-width: 425px){
@@ -1062,6 +1085,7 @@ form input, form textarea{
   .circle{
     position: relative;
     visibility: visible;
+    cursor:pointer;
   }
   section{
     padding:3.5em;
