@@ -8,6 +8,33 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,600" rel="stylesheet">
 </head>
 <body>
+
+	<div id="loading-page">
+	    <svg id="loading-logo" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="8.5in" height="11in" viewBox="0 0 215.9 279.4" version="1.1" id="svg5994" inkscape:version="0.92.3 (2405546, 2018-03-11)" sodipodi:docname="colibris-logo.svg">
+		  <defs> id="defs5988"</defs>
+		  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:zoom="0.49497475" inkscape:cx="433.62595" inkscape:cy="543.39254" inkscape:document-units="mm" inkscape:current-layer="layer6" showgrid="false" units="in" showborder="false" inkscape:window-width="1366" inkscape:window-height="745" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1"/>
+		  <metadata id="metadata5991">
+		    <rdf:RDF>
+		      <cc:Work rdf:about="">
+		        <dc:format>image/svg+xml</dc:format>
+		        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+		        <dc:title/>
+		      </cc:Work>
+		    </rdf:RDF>
+		  </metadata>
+		  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-17.6)" sodipodi:insensitive="true"/>
+		  <g inkscape:groupmode="layer" id="layer6" inkscape:label="Layer 2" sodipodi:insensitive="true">
+		    <path id="body" style="fill:none;stroke:#001500;stroke-width:1.85099995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 98.638489,114.22716 c -1.422935,-6.96111 18.057041,-23.974706 28.760881,-7.75088 l 49.26632,-21.381741 -45.00545,23.787191 c -5.41395,2.31636 -6.74169,4.63271 -7.98913,6.94907 19.61927,70.50692 -60.401616,41.04123 -65.24459,93.27784" id="path6551" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc"/>
+		    <path id="body" style="fill:none;stroke:#001500;stroke-width:1.85099995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" d="M 132.72546,137.74708 C 101.70855,118.05712 69.525938,101.15698 29.399336,103.26902 62.88025,116.55579 90.180189,135.15979 108.75806,161.267" id="path6553" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"/>
+		    <circle id="ring" style="opacity:1;fill:none;fill-opacity:1;stroke:#001500;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1000;stroke-dashoffset:1000;stroke-opacity:1" id="path6563" cx="105.30417" cy="135.60898" r="97.238594"/>
+		  </g>
+		</svg>
+	</div>
+	<div id="loading-backdrop" style="position: absolute;width:100%;height:100vh;background-color:var(--light-color);z-index:4;top:0"></div>
+
+
+
+	
 	<div id="navbar">
 		<img src="assets/logo-bahnschrift.svg">
 		<div id="menu-btn" onclick="toggleBtn()">
@@ -171,6 +198,7 @@
 			<li><a href="contact.html">Contact Us</a></li>
 		</ul>
 	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 	<script type="text/javascript" src="myScripts.js"></script>
 </body>
 </html>

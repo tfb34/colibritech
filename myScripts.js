@@ -1,6 +1,41 @@
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
 const menuBtn = document.getElementById('menu-btn');
 
 let closed = true;
+
+/*loading page*/
+var t = new TimelineMax();
+
+t.to('#body', 1, {
+        autoAlpha: 1,
+        ease: Power1.easeInOut
+    })
+	.to('#ring', 0.5, {
+		autoAlpha:1,
+        strokeDashoffset:0,
+        ease: Power1.easeInOut,
+        delay:1
+    })
+    .to('#body,#ring',1,{autoAlpha:0, ease:Power1.easeOut},"-=0.2")
+	.fromTo('#loading-page',0.1,{top:0},{top:'-20vh', ease:Power1.easeOut})
+	.to('#loading-page, #loading-backdrop', 0.5,{top:'-100vh'})
+	/*.to('#main-header-cover',0.4,{height:0, transformOrigin:"bottom", ease:Power2.easeOut},'-=0.2')
+	.fromTo('#home-main-letters > path',0.5,{autoAlpha:0},{autoAlpha:1,ease:Power2.easeInOut},'-=0.3')
+	.fromTo('#home-subheader',0.5,{autoAlpha:0},{autoAlpha:1,ease:Power2.easeInOut},'-=0.3')
+	.fromTo('#home-navbar > li', 0.5,{autoAlpha:0,paddingTop:"2em"},{autoAlpha:1,paddingTop:0})*/
+	.call(showOverflow)
+	.to('body',1,{overflowY:"scroll"},"+=1")
+
+function showOverflow(){
+	if(document.getElementsByTagName('title')[0].innerText != "home : colibritech"){
+		document.getElementsByTagName('body')[0].style.overflowY = "scroll";
+	}
+}
+
+
 
 function toggleBtn(){
 
