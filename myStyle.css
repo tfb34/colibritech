@@ -394,17 +394,19 @@ template {
     margin: auto;
 }
 #slideshow .arrow-btn:hover{
-      background-color: var(--main-color);
+    background-color: var(--main-color);
     padding: 0.5em 0;
     border-radius: 2px;
 }
 .carousel-left{
   transform: translateX(-100vw);
   transition:1s;
+  transition-delay: 0.1s;
 }
 .carousel-right{
   transform: translateX(100vw);
   transition:1s;
+  transition-delay: 0.1s;
 }
 .carousel-stage-right{
   transform: translateX(100vw);
@@ -414,7 +416,7 @@ template {
 }
 .carousel-show{
   transform: translateX(0px);
-  transition: 1s;
+  transition: 0.8s;
 }
 .center{
   position: absolute;
