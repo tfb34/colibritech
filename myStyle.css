@@ -29,8 +29,6 @@ body {
   width:100% !important;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -606,6 +604,7 @@ section{
     border: 0;
     margin-bottom: 2em;
     height:58px;
+    cursor:pointer;
 }
 .banner button:hover{
   background-color: var(--main-color);
